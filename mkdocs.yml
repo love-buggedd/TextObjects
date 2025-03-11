@@ -1,0 +1,46 @@
+site_name: TextObjects
+site_url: https://love-buggedd.github.io/TextObjects/
+repo_url: https://github.com/love-buggedd/TypeObjects
+repo_name: love-buggedd/TypeObjects
+
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: slate
+    primary: black
+    accent: black
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+    - search.share
+  logo: images/logo.png
+  favicon: images/favicon.ico
+
+nav:
+  - Introduction: index.md
+  - Installation: installation.md
+  - API:
+      - TextObject API: api/index.md
+      - TextParameters: api/params.md
+  - Changelog: changelog.md
+  - Contributing: contributing.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/love-buggedd/TextObjects
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/lovebuggedd
